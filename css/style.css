@@ -1,1 +1,70 @@
 /* Aquí el CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    padding: 2rem;
+}
+header menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items:center;
+    align-items: center;  
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+}
+main {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    height: 100vh;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+.primera {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content:center;
+    justify-items: right;
+    text-align: right;
+}
+.primera h1 {
+    font-size: 5rem;
+}
+.primera img {
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.segunda {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.segunda button {
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    padding: 1rem 1rem;
+    border: none;
+}
+.tercera {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+.tercera ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
